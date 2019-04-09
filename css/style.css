@@ -1,0 +1,535 @@
+/*---------------------------------my reset-----------------------------------------------*/
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/*---------------------------------end my reset-------------------------------------------*/
+/*---------------------------------my style-----------------------------------------------*/
+body {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*---------------------------------end my style--------------------------------------------*/
+/*---------------------------------header--------------------------------------------------*/
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("../img/header.png") no-repeat center;
+  background-size: cover;
+  padding: 36px 0 283px;
+}
+
+.header-container {
+  margin: 0 auto 222px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1418px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header-main-block {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-main-block h2 {
+  font: 700 69px/27px Raleway, sans-serif;
+  color: #f9fafe;
+  letter-spacing: 4.54px;
+  margin-bottom: 38px;
+}
+
+.header-main-block p {
+  font: 400 28px/22px 'Open Sans', sans-serif;
+  color: #f9fafe;
+  letter-spacing: 1.3px;
+  margin-bottom: 85px;
+}
+
+/*---------------------------------menu header---------------------------------------------*/
+.header-buttons-group ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: end;
+}
+/*---------------------------------end menu header-----------------------------------------*/
+/*---------------------------------end header----------------------------------------------*/
+
+/*---------------------------------first post section--------------------------------------*/
+
+.first-post-section {
+  padding-bottom: 92px;
+}
+
+.section-statistics {
+  box-shadow: 0 0 30px rgba(52, 52, 52, 0.15);
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -65px;
+  margin-bottom: 109px;
+  padding: 30px 0 30px;
+}
+
+.statistics-box {
+  text-align: center;
+  width: 285px;
+  padding-top: 7px;
+}
+
+.statistics-box .margin-bottom {
+  margin-bottom: 14px;
+}
+
+.section-statistics .statistics-box:not(:last-child) {
+  border-right: 1px solid rgba(113, 113, 113, 0.3);
+}
+
+.section-post-headline {
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.first-post-section-img {
+  margin-bottom: 97px;
+}
+
+.first-post-section-img article {
+  margin: 14px;
+}
+
+/*post style*/
+
+.post-style {
+  position: relative;
+}
+
+.post-stats {
+  font: 700 14px/22px 'Open Sans', sans-serif;
+  color: #fff;
+  letter-spacing: 0.64px;
+  position: absolute;
+  z-index: 5;
+  top: 29px;
+  left: 23px;
+  padding: 9px 12px;
+  border-radius: 5px;
+  background-color: #e7434e;
+}
+
+.post-info {
+  position: absolute;
+  z-index: 5;
+  bottom: 22px;
+  left: 23px;
+}
+
+.post-info h6 {
+  font: 400 28px/32px Raleway, sans-serif;
+  color: #fff;
+  letter-spacing: 1.2px;
+}
+
+.post-info p {
+  font: 400 20px/30px Raleway, sans-serif;
+  color: #fff;
+  letter-spacing: 0.8px;
+}
+
+/*end post style*/
+
+
+
+/*---------------------------------end first post section----------------------------------*/
+
+/*---------------------------------subscribe section---------------------------------------*/
+.section-subscribe-boat {
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("../img/background.png") no-repeat center;
+  background-size: cover;
+  padding-top: 190px;
+  padding-bottom: 168px;
+}
+
+.section-subscribe-boat h2 {
+  font: 700 69px/27px Raleway, sans-serif;
+  color: #f9fafe;
+  letter-spacing: 4.54px;
+  margin-bottom: 38px;
+  margin-left: 37px;
+  text-align: center;
+}
+
+.section-subscribe-boat p {
+  font: 400 28px/22px 'Open Sans', sans-serif;
+  color: #f9fafe;
+  letter-spacing: 1.3px;
+  text-align: center;
+  margin-bottom: 103px;
+}
+
+.subscribe-boat-button {
+  text-align: center;
+}
+/*---------------------------------end subscribe-------------------------------------------*/
+
+/*---------------------------------second post section-------------------------------------*/
+.second-post-section {
+  padding-top: 93px;
+  padding-bottom: 90px;
+}
+
+.second-post-section-img {
+  margin-bottom: 104px;
+}
+
+.second-post-section-img article {
+  margin: 14px;
+}
+
+.second-post-section .section-post-headline {
+  margin-bottom: 73px;
+}
+
+.second-post-section-img .post-info p {
+  font: 400 16px/22px Raleway, sans-serif;
+  color: #fff;
+  letter-spacing: 0.8px;
+}
+
+.second-post-section-img .post-info p a {
+  margin-right: 15px;
+}
+
+/*---------------------------------end second post section---------------------------------*/
+
+/*---------------------------------footer--------------------------------------------------*/
+footer {
+  font-size: 100%;
+  margin-top: 10px;
+  padding: 0 0 50px 0;
+  background-color: #404040;
+  border-top: 6px solid transparent;
+  border-image: 13 repeating-linear-gradient(110deg, #e7434e, #e7434e 14px, transparent 20px, transparent 20px, #e7434e 20px, #e7434e 20px,transparent 20px, transparent 24px);
+}
+
+.footer-box h6,
+.footer-box label {
+  font: 700 0.8vw/22px Raleway, sans-serif;
+  color: #fff;
+  margin-bottom: 7px;
+}
+
+.footer-box p {
+  font: 400 0.8vw/34px 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+.footer-box {
+  margin-top: 50px;
+  padding: 0 55px 0 17px;
+}
+
+.footer-social-link {
+  margin-top: 35px;
+}
+
+.footer-social-link li {
+  display: inline-block;
+}
+
+
+/*---------------------------------end footer----------------------------------------------*/
+
+/*---------------------------------flex----------------------------------------------------*/
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.justify-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*---------------------------------end flex------------------------------------------------*/
+
+/*---------------------------------buttons-------------------------------------------------*/
+.header-buttons-group ul .header-button {
+  font: 700 15px/22px Raleway, sans-serif;
+  color: #f9fafe;
+  letter-spacing: 0.64px;
+  padding: 10px;
+  margin-right: 25px;
+}
+
+.header-buttons-group ul .header-sign-in {
+  font: 700 15px/22px Raleway, sans-serif;
+  color: #f9fafe;
+  letter-spacing: 0.64px;
+  border-radius: 5px;
+  border: 1px solid #f9fafe;
+  padding: 9px 36px 10px 36px;
+}
+
+.more-post-button {
+  text-align: center;
+}
+
+.more-post-button a {
+  font: 700 14px/22px Raleway, sans-serif;
+  color: #343434;
+  border-radius: 5px;
+  border: 1px solid rgba(38, 38, 38, 0.3);
+  padding: 20px 40px 19px 41px;
+}
+
+.subscribe-boat-button a {
+  font: 700 14px/22px Raleway, sans-serif;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #e7434e;
+  background-color: #e7434e;
+  padding: 20px 40px 19px 41px;
+}
+
+/*---------------------------------end buttons---------------------------------------------*/
+
+/*---------------------------------form----------------------------------------------------*/
+
+/*----------header-form-search-----------*/
+.header-form-search {
+  position: relative;
+  width: 735px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-form-search button {
+  font: 700 14px/22px Raleway, sans-serif;
+  color: #fff;
+  letter-spacing: 0.56px;
+  position: absolute;
+  width: 192px;
+  height: 58px;
+  border-radius: 0 5px 5px 0;
+  background-color: #e7434e;
+  top: 0;
+  right: 0;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.header-form-search input {
+  font: 700 14px/22px Raleway, sans-serif;
+  color: #e7434e;
+  width: 100%;
+  text-transform: uppercase;
+  height: 58px;
+  padding: 0 200px 0 30px;
+  border-radius: 5px;
+  border: inherit;
+  outline: none;
+  background-color: #fff;
+}
+
+.header-form-search input::-webkit-input-placeholder {
+  font: 400 14px/22px Raleway, sans-serif;
+  color: #717171;
+  letter-spacing: 0.56px;
+}
+.header-form-search input:-moz-placeholder {
+  font: 400 14px/22px Raleway, sans-serif;
+  color: #717171;
+  letter-spacing: 0.56px;
+}
+.header-form-search input:-ms-input-placeholder {
+  font: 400 14px/22px Raleway, sans-serif;
+  color: #717171;
+  letter-spacing: 0.56px;
+}
+/*----------end header-form-search-----------*/
+
+/*----------footer-subscribe-form-----------*/
+
+.footer-subscribe-form-position {
+  position: relative;
+  width: 368px;
+  margin-top: 12px;
+}
+
+.footer-subscribe-form-position button {
+  font: 400 14px/22px 'Open Sans', sans-serif;
+  color: #fff;
+  letter-spacing: 0.28px;
+  position: absolute;
+  width: 130px;
+  height: 42px;
+  border-radius: 0 5px 5px 0;
+  background-color: #e7434e;
+  top: 0;
+  left: 268px;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.footer-subscribe-form-position input {
+  font: 400 14px/22px 'Open Sans', sans-serif;
+  color: #e7434e;
+  width: 100%;
+  height: 42px;
+  padding: 0 0 0 20px;
+  border-radius: 5px;
+  border: inherit;
+  outline: none;
+  background-color: #fff;
+}
+
+/*----------end footer-subscribe-form-----------*/
+
+/*---------------------------------end form------------------------------------------------*/
+
+/*---------------------------------font----------------------------------------------------*/
+
+.font-bold {
+  font: 700 30px/22px 'Open Sans', sans-serif;
+  color: #343434;
+  font-size: 30px;
+  letter-spacing: 1.2px;
+}
+
+.my-font-regular {
+  font: 400 18px/22px 'Open Sans', sans-serif;
+  color: #717171;
+  letter-spacing: 0.36px;
+}
+
+.section-post-headline h4 {
+  font: 400 30px/28px Raleway, sans-serif;
+  color: #343435;
+  letter-spacing: 0.3px;
+  margin-bottom: 19px;
+}
+
+.section-post-headline p {
+  font: 400 15px/22px 'Open Sans', sans-serif;
+  color: #717171;
+  letter-spacing: 0.32px;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 754px;
+  margin: 0 auto;
+}
+
+/*---------------------------------end font------------------------------------------------*/
+
+/*---------------------------------fontawesome---------------------------------------------*/
+.fa-ship,
+.fa-map-marker-alt,
+.fa-user-friends {
+  margin-right: 10px;
+}
+
+.footer-social-link .fab {
+  padding: 10px;
+  font-size: 21px;
+  width: 23px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  font-weight: 400;
+  margin-right: 15px;
+}
+
+.footer-social-link .fa-facebook-f,
+.footer-social-link .fa-twitter,
+.footer-social-link .fa-google-plus-g {
+  background-color: #717171;
+  color: #fff;
+}
+
+.footer-social-link .fab:hover {
+  color: #e7434e;
+  background-color: #7fffd4;
+}
+
+/*---------------------------------end fontawesome-----------------------------------------*/
+
+/*---------------------------------effects-------------------------------------------------*/
+.img-fluid {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.logo a:hover {
+  opacity: 0.5;
+}
+
+.header-buttons-group a:hover {
+  color: #e7434e;
+  background-color: #7fffd4;
+  border-radius: 5px;
+}
+
+.header-form-search button:hover,
+.footer-subscribe-form button:hover {
+  color: #000;
+  background-color: #7fffd4;
+}
+
+.more-post-button a:hover {
+  background-color: #e7434e;
+  color: #fff;
+}
+
+.subscribe-boat-button a:hover {
+  background-color: #7fffd4;
+  border: #7fffd4;
+  color: #000;
+}
+
+.second-post-section-img .post-info p a:hover {
+  color: #e7434e;
+}
+
+.post-stats:hover {
+  background-color: #7fffd4;
+  color: #000;
+}
+
+.gradient::after {
+  background: transparent;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.0) 50%);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.gradient:hover:after {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+
+/*---------------------------------end effects---------------------------------------------*/
